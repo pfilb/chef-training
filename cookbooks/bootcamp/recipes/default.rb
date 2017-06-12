@@ -4,9 +4,14 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-include_recipe "apache2"
-
-apache_site "default" do
-  enable true
+package 'apache' do
+	package_name'httpd'
+	action :install
 end
+
+service 'apache' do
+	service_name 'httpd'
+	action [:start, :enable]
+end
+
 

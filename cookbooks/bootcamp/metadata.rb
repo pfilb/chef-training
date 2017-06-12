@@ -1,13 +1,13 @@
 name 'bootcamp'
 maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer_email 'peter.filbin@kibocommerce.com'
 license 'All Rights Reserved'
 description 'Installs/Configures bootcamp'
 long_description 'Installs/Configures bootcamp'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
-depends "apache2"
+depends "bootcamp"
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
