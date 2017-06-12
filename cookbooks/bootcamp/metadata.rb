@@ -4,7 +4,7 @@ maintainer_email 'peter.filbin@kibocommerce.com'
 license 'All Rights Reserved'
 description 'Installs/Configures bootcamp'
 long_description 'Installs/Configures bootcamp'
-version '0.1.0'
+version '0.2.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 depends "bootcamp"
