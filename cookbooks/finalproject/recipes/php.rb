@@ -2,6 +2,9 @@ package "php" do
 	action :install
 end
 
+package "php-mysqli" do
+	action :install
+
 service 'apache' do
         service_name 'httpd'
         action [:restart]
