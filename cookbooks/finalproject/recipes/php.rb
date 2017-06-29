@@ -4,6 +4,7 @@ end
 
 package "php-mysqli" do
 	action :install
+end
 
 service 'apache' do
         service_name 'httpd'
